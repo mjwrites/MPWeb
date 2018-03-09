@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300');
+
+body{
+	background: url('./background.jpg') center no-repeat;
+	background-size: cover;	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Lato', sans-serif;
+	color: #FAFAFA;
+}
+
+p{
+	text-align: center;
+	font-size: 14pt;
+}
+
+hr{
+	border-bottom: .4px solid #FAFAFA;
+	width: 80%;
+}
+
+a{
+	color: #FAFAFA;
+}
+
+.overlay{
+	background: rgba(0,0,0 ,0.5);
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	bottom:0;
+	left: 0;
+	right: 0;
+	z-index: 0;
+}
+
+.icons{
+	width: 175px;
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+}
+
+.container{
+	position: fixed;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	z-index: 10;
+	width: 60vw;
+}
+
+.container p{
+	width: 70%;
+}
+
+.headshot{
+	width: 200px;
+}
