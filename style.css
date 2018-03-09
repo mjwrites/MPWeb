@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300');
 
 body{
-	background: url('./background.jpg') center no-repeat;
+	background: url('./whitemarble.png') center no-repeat;
 	background-size: cover;	
 	display: flex;
 	align-items: center;
